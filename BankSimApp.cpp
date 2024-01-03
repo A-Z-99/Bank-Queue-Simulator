@@ -9,8 +9,6 @@
 using std::cout;
 using std::endl;
 using std::cin;
-// Note to marker: compile with the below command. Do not use makefile or else you will get a linker error.
-//g++ BankSimApp.cpp BinaryHeap.cpp Event.cpp EmptyDataCollectionException.cpp PriorityQueue.cpp Queue.cpp -o bsim
 
 void arrivalPrint(unsigned int time){
     cout << "Processing an arrival event at time:";
